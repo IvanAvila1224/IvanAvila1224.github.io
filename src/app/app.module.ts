@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { HearderComponent } from './hearder/hearder.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { EducationAndCompetencesComponent } from './education-and-competences/education-and-competences.component';
+import { SkillsAndCompetencesComponent } from './skills-and-competences/skills-and-competences.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HearderComponent,
     WorkExperienceComponent,
-    EducationAndCompetencesComponent
+    EducationAndCompetencesComponent,
+    SkillsAndCompetencesComponent
   ],
   imports: [
     BrowserModule
