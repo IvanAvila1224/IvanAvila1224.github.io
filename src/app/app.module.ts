@@ -4,12 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HearderComponent } from './hearder/hearder.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
-
+import { EducationAndCompetencesComponent } from './education-and-competences/education-and-competences.component';
+import { CertificatesComponent } from './certificates/certificates.component';
+import { SkillsAndCompetencesComponent } from './skills-and-competences/skills-and-competences.component';
+import { LenguagesComponent } from './lenguages/lenguages.component';
+import { InterestsComponent } from './interests/interests.component';
 @NgModule({
   declarations: [
     AppComponent,
     HearderComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    EducationAndCompetencesComponent,
+    CertificatesComponent,
+    SkillsAndCompetencesComponent,
+    LenguagesComponent,
+    InterestsComponent
   ],
   imports: [
     BrowserModule
