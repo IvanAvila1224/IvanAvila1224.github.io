@@ -13,7 +13,8 @@ import { SkillsAndCompetencesComponent } from './skills-and-competences/skills-a
     HearderComponent,
     WorkExperienceComponent,
     EducationAndCompetencesComponent,
-    CertificatesComponent
+    CertificatesComponent,
+    SkillsAndCompetencesComponent
   ],
   imports: [
     BrowserModule
